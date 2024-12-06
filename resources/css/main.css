@@ -210,7 +210,6 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 100px);
-		border: red 1px solid;
 		width: 1200px;
 	}
 
