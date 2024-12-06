@@ -55,10 +55,11 @@
                 <div id="copyright">
                     <ul class="menu">
                         <li>&copy; HeroZoda. All rights reserved</li>
-                        <li>Template by: <a href="http://html5up.net">HTML5 UP</a></li>
                     </ul>
                 </div>
             </div>
+            
         </div>
     </footer>
+    <!-- Fin del pie de pagina -->
 </div>

@@ -5,7 +5,10 @@
     <title>Hero | Agendar-Cita</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/modal-styles.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="stylesheet" href="../css/maps.css">
     <script type="module" src="http://[::1]:5173/@vite/client"></script><link rel="stylesheet" href="http://[::1]:5173/../resources/css/main.css" />    <style>
     #agendar-cita-container {
         display: flex;
@@ -56,13 +59,10 @@
     </style>
 </head>
 
-<body class="left-sidebar is-preload">
-    <div id="page-wrapper">
-
-        <!-- Encabezado -->
-        <div id="header-wrapper">
-            <header class="container">
-                <!DOCTYPE html>
+<body class="no-sidebar is-preload">
+    <div id="header-wrapper">
+        <header class="container">
+            <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -72,6 +72,7 @@
 </head>
 
 <body>
+    <!-- Cabezera -->
     <header id="header">
         <div class="inner">
             <div class="cotainer">
@@ -80,32 +81,17 @@
                 <!-- Nav -->
                 <nav id="nav">
                     <ul>
-                        <li class="">
-                            <a href="http://localhost/inicio">Inicio</a>
-                        </li>
-                        <li class="">
-                            
-                            <ul>
-                                <li><a href="#">Pintura</a></li>
-                                <li><a href="#">Ojalatería</a></li>
-                                <li>
-                                    <a href="#">Reparaciones</a>
-                                    <ul>
-                                        <li><a href="#">Choques</a></li>
-                                        <li><a href="#">Abolladuras</a></li>
-                                        <li><a href="#">Enmacillado</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
                         <li class="current_page_item">
-                            <a href="http://localhost/agendar-cita">Agendar cita</a>
+                            <a href="../../index.html">Inicio</a>
                         </li>
                         <li class="">
-                            <a href="http://localhost/galeria-trabajos">Galería de trabajos</a>
+                            <a href="formularie.html">Agendar cita</a>
                         </li>
                         <li class="">
-                            <a href="http://localhost/marcas">Marcas</a>
+                            <a href="portfolio.html">Galería de trabajos</a>
+                        </li>
+                        <li class="">
+                            <a href="brands.html">Marcas</a>
                         </li>
                     </ul>
                 </nav>
@@ -114,7 +100,7 @@
     </header>
 </body>
 
-</html>            </header>
+</html>        </header>
         </div>
         <!-- Main Wrapper -->
         <div id="agendar-cita-container">
